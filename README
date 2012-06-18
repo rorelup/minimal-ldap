@@ -1,3 +1,6 @@
 Minimal LDAP Authentication plugin for Wordpress
 
-Had issues with others so had to write our own.  More later.
+Our LDAP configuration was a little different and wasn't going to be handled by the other LDAP plugins that were already out there so we wrote our own.  For more information on the "Why?" go read the blog post here:
+
+http://blogs.valpo.edu/systems/2012/06/25/minimal-ldap-plugin-for-wordpress/
+

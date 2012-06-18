@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Minimal LDAP Login
-Plugin URI: http://blogs.valpo.edu/systems/ 
+Plugin URI: http://blogs.valpo.edu/systems/2012/06/25/minimal-ldap-plugin-for-wordpress/ 
 Description:  Barebones LDAP Authentication for Wordpress.
 Version: 1.0
 Author: Richard Orelup
