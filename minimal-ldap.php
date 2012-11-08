@@ -45,7 +45,7 @@ function ldap_authenticate($user, $username, $password) {
 
 		$dsVerify = ldap_connect($ldapSettings['ldapHost'], $ldapSettings['ldapPort'])
 		  or die("There was a problem connecting to LDAP Server - ".$ldapSettings['ldapHost']);
-		$rVerify=@ldap_bind($dsVerify,$userdn,$password);
+		$rVerify=@ldap_bind($dsVerify,$userdn,stripslashes($password));
 	} else {
 		return new WP_Error('invalid_username', __('<strong>Login Error</strong>: LDAP user not found.'));
 	}
